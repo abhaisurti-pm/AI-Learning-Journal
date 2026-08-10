@@ -191,9 +191,69 @@ This section will be continuously expanded during the week.
 
 This section will be updated after each learning session.
 
-### Day 1
+### Day 1 — AI Fundamentals
 
-*To be completed.*
+**Date:** 10 August 2026
+
+#### Topics Covered
+
+* Generative AI
+* Generative AI applications
+* LLMs and SLMs
+* AI agents
+* AI workloads
+* Natural Language Processing
+* Text analysis
+* Speech AI
+* Computer vision
+* Information extraction
+* Responsible AI
+
+#### Key Understanding
+
+Generative AI enables applications to generate new content such as text, images, audio, video, and code based on learned patterns, instructions, prompts, and available context.
+
+A typical GenAI application follows a high-level flow:
+
+**User → Prompt → Application → Model + Context → Generated Output → User**
+
+LLMs are larger language models designed for broad capabilities, while SLMs are smaller models that can provide lower resource requirements and may be suitable for more focused or local/edge scenarios. Model selection should be based on business and technical requirements rather than model size alone.
+
+AI agents extend beyond conversational responses by using models, instructions, and tools to reason about tasks and perform actions. The level of autonomy should be carefully defined based on risk and business requirements.
+
+AI workloads covered include Generative AI, Natural Language Processing, Speech, Computer Vision, and Information Extraction.
+
+Information extraction can transform unstructured data such as documents, images, and recordings into structured information that can be used by downstream business workflows.
+
+Responsible AI principles covered:
+
+* Fairness
+* Reliability and Safety
+* Privacy and Security
+* Inclusiveness
+* Transparency
+* Accountability
+
+#### AI PM Perspective
+
+The key learning from Day 1 is that AI Project Management requires more than managing development tasks. An AI PM must understand the relationship between the business problem, AI capability, data/context, model, user experience, risks, evaluation, and business outcome.
+
+For AI features, important PM questions include:
+
+* Why is AI required for this problem?
+* Which AI workload is appropriate?
+* What data or context does the system require?
+* What level of AI quality is acceptable?
+* What happens when the AI is incorrect?
+* What level of human involvement is required?
+* What responsible AI risks must be addressed?
+* How will the feature be evaluated?
+* What business outcome should improve?
+
+#### Personal Reflection
+
+The biggest shift in my understanding is that AI should not be treated simply as another software component. AI systems introduce probabilistic outputs, model limitations, data dependencies, evaluation requirements, and responsible AI considerations that need to be incorporated into project planning from the beginning.
+
 
 ### Day 2
 
