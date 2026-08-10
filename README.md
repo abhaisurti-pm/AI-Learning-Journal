@@ -1,94 +1,70 @@
-# AI Learning Journal
+# AI PM Learning Resources
 
-My structured learning journey toward becoming an **AI Project Manager / Senior AI Project Manager**.
+This section contains resources used during my AI Project Management learning journey.
 
-This repository documents my progression from AI fundamentals to practical AI project delivery, including technical foundations, AI product thinking, evaluation, governance, and hands-on projects.
+## Microsoft Learn
 
-## Learning Objective
+### Week 1 — AI Fundamentals
 
-Build strong enough AI fluency to:
+#### Introduction to AI concepts
 
-* Understand AI systems and technical concepts
-* Communicate effectively with AI/ML engineers
-* Translate business problems into AI opportunities
-* Plan and manage AI projects
-* Define AI product requirements
-* Understand AI risks and limitations
-* Design evaluation and success metrics
-* Apply responsible AI principles
-* Build practical AI PM artifacts
+**Type:** Microsoft Learn Module
 
-## Learning Framework
+**Target:** Week 1
 
-My learning approach follows:
+**Topics:**
 
-**Learn → Understand → Apply → Build → Document → Explain**
+- AI fundamentals
+- Generative AI
+- AI agents
+- Natural Language Processing
+- Speech
+- Computer Vision
+- Information Extraction
+- Responsible AI
 
-## Repository Structure
+**Resource:**
 
-### Weekly Learning
+https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/
 
-Weekly notes, exercises, reflections, and assessments.
+**Status:** Completed
 
-* `Week-01` — AI + Technical Foundation
-* `Week-02` — Coming soon
-* `Week-03` — Coming soon
-* `Week-04` — Coming soon
+**Assessment:** Passed
 
-### AI PM Knowledge Base
+---
 
-Permanent reference material covering important AI concepts.
+### Week 1 — Generative AI
 
-* AI Fundamentals
-* LLMs
-* Embeddings
-* RAG
-* Vector Databases
-* AI Agents
-* AI Evaluation
-* AI Governance
+#### What is generative AI?
 
-### Practical Projects
+**Type:** Microsoft Learn Module
 
-Hands-on AI PM projects and portfolio-ready artifacts.
+**Target:** Week 1
 
-### Resources
+**Topics:**
 
-Useful courses, documentation, references, tools, and learning resources.
+- Generative AI
+- GenAI capabilities
+- Responsible AI
+- Microsoft Copilot
+- Copilot workflow
 
-## Current Focus
+**Resource:**
 
-**Phase 1 — AI + Technical Foundation**
+https://learn.microsoft.com/en-us/training/modules/what-generative-ai/
 
-**Week 1: 10–14 August 2026**
+**Status:** Planned
 
-Current topics:
+---
 
-* AI vs ML vs GenAI
-* LLM fundamentals
-* Tokens
-* Context windows
-* Prompting
-* Embeddings
-* AI APIs
-* Hallucinations
-* Evaluation basics
-* Responsible AI
-* Copilot workflows
+## Learning Resource Principles
 
-## Progress
+Resources should be:
 
-| Phase                               | Status      |
-| ----------------------------------- | ----------- |
-| Phase 1 — AI + Technical Foundation | In Progress |
-| Phase 2                             | Not Started |
-| Phase 3                             | Not Started |
-| Phase 4                             | Not Started |
+- Relevant to the AI PM roadmap
+- Practical
+- High quality
+- Preferably from authoritative sources
+- Connected to a specific learning objective
 
-## Goal
-
-Build a strong combination of:
-
-**Project Management + AI Fluency + Technical Understanding + Product Thinking + Practical Delivery**
-
-This repository will evolve continuously as I progress through the roadmap.
+Resources should not be collected simply for quantity. Each resource should contribute to the learning roadmap or practical project work.
