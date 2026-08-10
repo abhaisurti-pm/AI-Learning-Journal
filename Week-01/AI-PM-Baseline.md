@@ -56,17 +56,85 @@ The goal is not to become an AI engineer, but to understand the technology well 
 
 **Topic:** AI Fundamentals
 
-Planned learning:
+**Learning Resource:** Microsoft Learn — Introduction to AI concepts
 
-* AI
-* Machine Learning
-* Deep Learning
-* Generative AI
-* AI vs ML vs GenAI
-* Training vs inference
-* Traditional software vs AI systems
+**Status:** Completed
 
-**Learning Status:** Not Started
+#### Topics Completed
+
+- Introduction to AI
+- Generative AI
+- Generative AI applications
+- LLMs and SLMs
+- AI agents
+- AI workloads
+- Natural Language Processing
+- Text analysis
+- Speech AI
+- Computer vision
+- Information extraction
+- Responsible AI
+
+#### Key Understanding
+
+Generative AI enables applications to generate new content such as text, images, audio, video, and code based on learned patterns, instructions, prompts, and available context.
+
+A typical GenAI application follows:
+
+**User → Prompt → Application → AI Model + Context → Generated Output → User**
+
+LLMs are larger language models designed for broad language capabilities, while SLMs are smaller models that can require fewer resources and may be suitable for focused or local/edge scenarios.
+
+AI agents extend beyond conversational responses by using a model, instructions, and tools to reason about tasks and perform actions.
+
+Major AI workloads covered:
+
+- Generative AI
+- Natural Language Processing
+- Speech
+- Computer Vision
+- Information Extraction
+
+Responsible AI principles covered:
+
+- Fairness
+- Reliability and Safety
+- Privacy and Security
+- Inclusiveness
+- Transparency
+- Accountability
+
+#### AI PM Perspective
+
+AI projects require more than traditional project delivery. An AI PM needs to understand the relationship between:
+
+**Business Problem → AI Capability → Solution → Data/Context → Requirements → Risks → Evaluation → Business Outcome**
+
+Important AI PM questions include:
+
+- Why is AI required for this problem?
+- Which AI capability is appropriate?
+- What data or context is required?
+- What quality level is acceptable?
+- What happens when the AI is incorrect?
+- What level of human involvement is required?
+- What responsible AI risks exist?
+- How will the AI feature be evaluated?
+- What business outcome should improve?
+
+#### Microsoft Learn Assessment
+
+**Module:** Introduction to AI concepts
+
+**Status:** Passed
+
+**Achievement:** Earned
+
+The module assessment was successfully completed after reviewing the learning units, completing the exercise, passing the assessment, and reviewing the summary.
+
+#### Day 1 Reflection
+
+The biggest learning from Day 1 is that AI should not be treated simply as another software component. AI systems introduce model limitations, data dependencies, probabilistic outputs, evaluation requirements, and responsible AI considerations that need to be considered throughout the project lifecycle.
 
 ---
 
@@ -402,7 +470,7 @@ Detailed documentation will be added after completing the week's learning.
 
 **End Date:** 14 August 2026
 
-**Overall Completion:** 0%
+**Overall Completion:** 20%
 
 ---
 
