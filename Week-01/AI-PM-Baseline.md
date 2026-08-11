@@ -140,19 +140,81 @@ The biggest learning from Day 1 is that AI should not be treated simply as anoth
 
 ### Day 2 — 11 August
 
-**Topic:** LLM Fundamentals
+**Topic:** Generative AI
 
-Planned learning:
+**Learning Resource:** Microsoft Learn — What is generative AI?
 
-* LLM
-* Tokens
-* Context windows
-* Input and output tokens
-* Inference
-* Temperature
-* Model limitations
+**Status:** Completed
 
-**Learning Status:** Not Started
+#### Topics Completed
+
+- Generative AI fundamentals
+- Generative AI capabilities
+- Large Language Models (LLMs)
+- Small Language Models (SLMs)
+- Generative AI use cases
+- Generative AI application workflow
+- Responsible AI considerations
+- Microsoft Copilot
+- Copilot workflow
+- Human-AI collaboration
+
+#### Key Understanding
+
+Generative AI enables applications to create new content such as text, images, code, audio, and other formats.
+
+Generative AI applications use models trained on large amounts of data and generate outputs based on user prompts, instructions, and available context.
+
+The choice of AI model should be based on the business and technical requirements rather than simply selecting the largest or most powerful model.
+
+Generative AI can support multiple business scenarios including:
+
+- Content generation
+- Summarization
+- Question answering
+- Translation
+- Information transformation
+- Productivity assistance
+- AI-powered conversations
+- Task assistance
+
+Microsoft Copilot demonstrates how generative AI can be integrated into existing productivity workflows to assist users with tasks while keeping humans involved in the process.
+
+#### AI PM Perspective
+
+As an AI Project Manager, Generative AI should be approached as a business capability rather than simply a technology.
+
+Important questions include:
+
+- What user problem are we solving?
+- Why is Generative AI appropriate?
+- What type of content or assistance should the AI provide?
+- What information/context does the AI need?
+- What level of quality is acceptable?
+- How will incorrect or harmful outputs be handled?
+- Where should human review remain?
+- What privacy and security considerations exist?
+- How will success be measured?
+
+A key learning from Copilot-style workflows is that AI can augment human productivity rather than completely replace the human decision-maker.
+
+#### Responsible AI Considerations
+
+Generative AI introduces risks such as:
+
+- Incorrect or misleading outputs
+- Harmful content
+- Privacy concerns
+- Security concerns
+- Bias
+- Lack of transparency
+- Over-reliance on AI-generated information
+
+These risks should be considered during requirements, design, testing, deployment, and monitoring.
+
+#### Day 2 Reflection
+
+The key learning from Day 2 is that Generative AI is most valuable when it is connected to a clear user or business problem. An AI PM should focus not only on what the model can generate, but also on how the capability fits into the user's workflow, how quality will be evaluated, what risks exist, and where humans should remain involved.
 
 ---
 
@@ -470,7 +532,7 @@ Detailed documentation will be added after completing the week's learning.
 
 **End Date:** 14 August 2026
 
-**Overall Completion:** 20%
+**Overall Completion:** 40%
 
 ---
 
