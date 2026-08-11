@@ -1,10 +1,14 @@
 # Day 2 — Generative AI
 
-**Date:** 11 August 2026
+**Date:** 11 August 2026  
+**Phase:** Phase 1 — AI + Technical Foundation  
+**Week:** Week 1
 
 ## Resource
 
 Microsoft Learn — What is generative AI?
+
+[Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/what-generative-ai/)
 
 ## Status
 
@@ -14,66 +18,40 @@ Completed
 
 Passed
 
+Microsoft Learn module assessment passed and achievement earned.
+
+---
+
 ## What I Learned
 
 - What Generative AI is
-- Difference between classification and generative models
-- Business applications of Generative AI
+- How Generative AI differs from classification models
+- Generative AI capabilities and business use cases
 - Responsible AI principles
 - Privacy and security considerations
 - Importance of human oversight
-- Microsoft 365 Copilot as an example of GenAI integrated into business workflows
+- Microsoft 365 Copilot as an example of Generative AI integrated into business workflows
 
-## Key AI PM Learning
+---
 
-A Generative AI project is not simply about selecting an AI model.
+## Core Concepts
 
-The PM needs to understand:
+### Generative AI
 
-Business Problem
-→ User / Workflow
-→ Input + Context
-→ AI Model
+Generative AI produces new content based on patterns learned from data and the input/context provided to the AI system.
+
+It can generate:
+
+- Text
+- Images
+- Audio
+- Video
+- Code
+- Other forms of content
+
+A simplified view is:
+
+```text
+User Input / Prompt + Context
+→ Generative AI Model
 → Generated Output
-→ Human Review
-→ Business Outcome
-
-The PM must also consider:
-
-- Accuracy
-- Privacy
-- Security
-- Safety
-- Accountability
-- Human oversight
-- Evaluation
-- Business impact
-
-## My Biggest Insight
-
-AI output should not automatically be treated as truth.
-
-A generated response can look convincing while still being incorrect. Therefore, AI projects need appropriate evaluation, controls, and human oversight based on the risk of the use case.
-
-## Validation
-
-I completed a six-question understanding check covering:
-
-- Generative AI
-- Classification vs Generative AI
-- AI PM requirements
-- Hallucination/fabrication
-- Human oversight
-- Responsible AI decision-making
-
-Understanding validated with ChatGPT.
-
-## Day 2 Definition of Done
-
-- [x] Microsoft Learn module completed
-- [x] Assessment passed
-- [x] Generative AI understood
-- [x] Responsible AI reviewed
-- [x] Copilot workflow understood
-- [x] AI PM perspective validated
-- [x] Understanding check completed
