@@ -1,70 +1,68 @@
-# AI PM Learning Resources
+# Week 1 — AI + Technical Foundation
 
-This section contains resources used during my AI Project Management learning journey.
+**Dates:** 10–14 August 2026  
+**Phase:** Phase 1 — AI + Technical Foundation  
+**Daily Study Target:** 1–1.5 hours
 
-## Microsoft Learn
+## Week Objective
 
-### Week 1 — AI Fundamentals
+Build a strong foundation in Artificial Intelligence and Generative AI from an AI Project Manager perspective.
 
-#### Introduction to AI concepts
+The focus of this week is to understand:
 
-**Type:** Microsoft Learn Module
+- Core AI concepts
+- Generative AI
+- AI capabilities and use cases
+- Responsible AI
+- AI risks and human oversight
+- How AI fits into real business and product workflows
 
-**Target:** Week 1
+### Learning Approach
 
-**Topics:**
+**Learn → Understand → Apply → Build → Document → Explain**
+
+---
+
+# Week 1 Progress
+
+| Day | Date | Topic | Resource | Status |
+|---|---|---|---|---|
+| Day 1 | 10 Aug 2026 | AI Fundamentals | Microsoft Learn — Introduction to AI concepts | ✅ Completed |
+| Day 2 | 11 Aug 2026 | Generative AI | Microsoft Learn — What is generative AI? | ✅ Completed |
+| Day 3 | 12 Aug 2026 | According to roadmap | Next planned resource | ⏳ Pending |
+| Day 4 | 13 Aug 2026 | According to roadmap | Next planned resource | ⏳ Pending |
+| Day 5 | 14 Aug 2026 | According to roadmap | Next planned resource | ⏳ Pending |
+
+---
+
+# Day 1 — AI Fundamentals
+
+**Status:** ✅ Completed  
+**Assessment:** Passed
+
+### Key Learning
 
 - AI fundamentals
 - Generative AI
+- LLM vs SLM
 - AI agents
-- Natural Language Processing
-- Speech
-- Computer Vision
-- Information Extraction
+- AI workloads
+- NLP
+- Speech AI
+- Computer vision
+- Information extraction
 - Responsible AI
 
-**Resource:**
+### AI PM Mental Model
 
-https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/
-
-**Status:** Completed
-
-**Assessment:** Passed
-
----
-
-### Week 1 — Generative AI
-
-#### What is generative AI?
-
-**Type:** Microsoft Learn Module
-
-**Target:** Week 1
-
-**Topics:**
-
-- Generative AI
-- GenAI capabilities
-- Responsible AI
-- Microsoft Copilot
-- Copilot workflow
-
-**Resource:**
-
-https://learn.microsoft.com/en-us/training/modules/what-generative-ai/
-
-**Status:** Planned
-
----
-
-## Learning Resource Principles
-
-Resources should be:
-
-- Relevant to the AI PM roadmap
-- Practical
-- High quality
-- Preferably from authoritative sources
-- Connected to a specific learning objective
-
-Resources should not be collected simply for quantity. Each resource should contribute to the learning roadmap or practical project work.
+```text
+Business Problem
+→ AI Capability
+→ AI Solution
+→ Requirements
+→ Data / Context
+→ Model
+→ User Experience
+→ Risks & Guardrails
+→ Evaluation
+→ Business Outcome
