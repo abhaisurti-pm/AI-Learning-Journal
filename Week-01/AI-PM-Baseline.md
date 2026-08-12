@@ -2,7 +2,7 @@
 
 **Dates:** 10 August 2026 – 14 August 2026
 **Phase:** Phase 1 — AI + Technical Foundation
-**Weekly Focus:** AI Fundamentals + Generative AI
+**Weekly Focus:** AI Fundamentals + Generative AI + LLM Foundations
 
 ---
 
@@ -220,62 +220,165 @@ The key learning from Day 2 is that Generative AI is most valuable when it is co
 
 ### Day 3 — 12 August
 
-**Topic:** Prompting + Embeddings
+**Topic:** Large Language Models (LLMs)
 
-Planned learning:
+**Learning Resource:** Microsoft Learn — Introduction to large language models
 
-* Prompt structure
-* System instructions
-* User instructions
-* Context
-* Structured outputs
-* Prompt iteration
-* Embeddings
-* Vectors
-* Semantic search
+**Resource:** https://learn.microsoft.com/en-us/training/modules/introduction-large-language-models/
 
-**Learning Status:** Not Started
+**Status:** Completed & Validated
+
+#### Topics Completed
+
+* What Large Language Models (LLMs) are
+* LLMs and Generative AI
+* Neural-network foundation of LLMs
+* Model parameters and model size
+* Foundation models
+* Prompts
+* Tokens
+* LLM response generation
+* Next-token prediction
+* Model capabilities and limitations
+* Model selection
+* Fluency vs factual correctness
+* Appropriate and inappropriate LLM use cases
+
+#### Microsoft Learn Assessment
+
+**Status:** Passed
+
+**Achievement:** Earned
+
+#### Day 3 Key Understanding
+
+An LLM is a language-focused AI model trained on large amounts of data to learn patterns and relationships that allow it to process and generate language.
+
+An LLM is a technology component rather than a complete AI product.
+
+Generative AI is broader than LLMs and includes systems capable of generating different types of content such as text, images, audio, video, and code.
+
+#### Important LLM Concepts
+
+**Prompt**
+
+A prompt provides instructions, questions, context, constraints, or other information that guides the model's output.
+
+**Token**
+
+A token is a basic unit of text processed by a language model. Token consumption can affect context usage, cost, and potentially latency.
+
+**Next-token prediction**
+
+At a high level, an LLM generates a response incrementally by predicting possible next tokens and selecting tokens according to the model's output and generation behavior.
+
+#### Foundation Models
+
+A foundation model is a broadly trained model that can serve as a base for multiple downstream applications or tasks.
+
+An LLM can be a foundation model, but the terms are not interchangeable.
+
+#### Model Selection
+
+The largest or most powerful model is not automatically the best model.
+
+An AI PM should consider:
+
+* Required quality
+* Accuracy
+* Cost
+* Latency
+* Scale
+* Context requirements
+* Security
+* Privacy
+* Reliability
+* Business risk
+* Operational complexity
+
+#### Fluency vs Accuracy
+
+An LLM can produce fluent and convincing text that is factually incorrect.
+
+Therefore:
+
+**Fluent output ≠ Guaranteed correct output**
+
+AI projects require appropriate evaluation, validation, guardrails, monitoring, and human oversight based on the risk of the use case.
+
+#### AI PM Perspective
+
+The key learning from Day 3 is that selecting an LLM should start with the business problem rather than the model.
+
+A useful AI PM mental model is:
+
+**Business Problem → User / Workflow → AI Capability → Input + Context → Model → Generated Output → Human Review / Action → Evaluation → Business Outcome**
+
+The AI PM must evaluate whether an LLM is actually appropriate and define requirements around quality, cost, latency, security, privacy, scale, risk, and human involvement.
+
+#### Day 3 Validation
+
+Understanding was validated through scenario-based questions covering:
+
+* Model selection for high-volume classification
+* AI API cost investigation
+* Fluency vs correctness
+* Foundation model vs AI product
+* High-level AI assistant architecture
+
+**Validation Result:** PASSED
+
+#### Day 3 Reflection
+
+The biggest learning from Day 3 is that an LLM should be treated as a technology capability within an overall AI solution rather than as the product itself.
+
+The AI PM's responsibility is to connect model capabilities with user needs, business requirements, technical constraints, risks, evaluation, and measurable outcomes.
 
 ---
 
 ### Day 4 — 13 August
 
-**Topic:** AI APIs + Hallucinations
+**Topic:** Embeddings
 
-Planned learning:
+**Planned Learning Resource:** To be confirmed from the current Week 1 roadmap before starting Day 4
 
-* API
-* Request and response
-* AI model integration
-* API keys
-* Latency
-* Token cost
-* Rate limits
-* Hallucinations
-* Grounding
-* Reliability
+**Learning Focus:**
+
+* What embeddings are
+* Text represented as vectors
+* Semantic meaning
+* Similarity between embeddings
+* Semantic search
+* Basic embedding use cases
+* Business applications of embeddings
+* AI PM requirements and trade-offs
 
 **Learning Status:** Not Started
+
+> Do not document or finalize `04-Embeddings.md` until the topic has been learned and understanding has been validated.
 
 ---
 
 ### Day 5 — 14 August
 
-**Topic:** Evaluation + Responsible AI + Copilot
+**Topic:** RAG Foundation
 
-Planned learning:
+**Planned Learning Resource:** To be confirmed from the current Week 1 roadmap before starting Day 5
 
-* AI evaluation
-* Accuracy
-* Relevance
-* Groundedness
-* Latency
-* Cost
-* Responsible AI
-* Human-in-the-loop
-* Copilot workflows
+**Learning Focus:**
+
+* Why AI applications need external/contextual information
+* Retrieval and generation concepts
+* Grounded AI responses
+* High-level RAG workflow
+* Business use cases
+* Data and knowledge requirements
+* AI PM considerations
 
 **Learning Status:** Not Started
+
+> Do not document or finalize `05-RAG.md` until the topic has been learned and understanding has been validated.
+
 
 ---
 
@@ -524,15 +627,21 @@ Detailed documentation will be added after completing the week's learning.
 
 ---
 
-## Completion Status
+Completion Status
 
-**Week 1:** In Progress
+Week 1: In Progress
 
-**Start Date:** 10 August 2026
+Start Date: 10 August 2026
 
-**End Date:** 14 August 2026
+End Date: 14 August 2026
 
-**Overall Completion:** 40%
+Overall Completion: 60%
+
+Completed: 3 / 5 days
+
+Current Checkpoint: Day 3 — LLM Foundations completed and validated
+
+Next: Day 4 — Embeddings
 
 ---
 
