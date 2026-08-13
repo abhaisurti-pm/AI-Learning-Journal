@@ -797,19 +797,19 @@ Detailed documentation will be added after completing the week's learning.
 
 Completion Status
 
-Week 1: In Progress
+**Week 1: In Progress**
 
-Start Date: 10 August 2026
+**Start Date:** 10 August 2026
 
-End Date: 14 August 2026
+**End Date:** 14 August 2026
 
-Overall Completion: 60%
+**Overall Completion:** 80%
 
-Completed: 3 / 5 days
+**Completed:** 4 / 5 days
 
-Current Checkpoint: Day 3 — LLM Foundations completed and validated
+**Current Checkpoint:** Day 4 — Embeddings completed and validated
 
-Next: Day 4 — Embeddings
+**Next:** Day 5 — To be confirmed from the Week 1 roadmap
 
 ---
 
