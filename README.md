@@ -30,7 +30,7 @@ The focus of this week is to understand:
 | Day 1 | 10 Aug 2026 | AI Fundamentals | Microsoft Learn — Introduction to AI concepts | ✅ Completed |
 | Day 2 | 11 Aug 2026 | Generative AI | Microsoft Learn — What is generative AI? | ✅ Completed |
 | Day 3 | 12 Aug 2026 | Large Language Models (LLMs) | Microsoft Learn — Introduction to large language models | ✅ Completed |
-| Day 4 | 13 Aug 2026 | Embeddings | Next planned resource | ✅ Completed |
+| Day 4 | 13 Aug 2026 | Embeddings | Google Machine Learning Crash Course — Embeddings | ✅ Completed |
 | Day 5 | 14 Aug 2026 | According to roadmap | Next planned resource | ⏳ Pending |
 
 ---
@@ -71,7 +71,7 @@ Business Problem
 
 # Day 2 — Generative AI
 
-**Status:** ✅ Completed
+**Status:** ✅ Completed  
 **Assessment:** Passed
 
 ### Key Learning
@@ -107,7 +107,7 @@ AI-generated output should not automatically be treated as truth. AI projects re
 
 # Day 3 — Large Language Models (LLMs)
 
-**Status:** ✅ Completed
+**Status:** ✅ Completed  
 **Assessment:** Passed
 
 ### Key Learning
@@ -168,7 +168,7 @@ The largest or most powerful model is also not automatically the best model. Mod
 
 # Day 4 — Embeddings
 
-**Status:** ✅ Completed
+**Status:** ✅ Completed  
 **Assessment:** Passed
 
 ### Key Learning
