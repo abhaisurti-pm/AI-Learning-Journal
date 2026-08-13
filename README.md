@@ -29,8 +29,8 @@ The focus of this week is to understand:
 |---|---|---|---|---|
 | Day 1 | 10 Aug 2026 | AI Fundamentals | Microsoft Learn — Introduction to AI concepts | ✅ Completed |
 | Day 2 | 11 Aug 2026 | Generative AI | Microsoft Learn — What is generative AI? | ✅ Completed |
-| Day 3 | 12 Aug 2026 | According to roadmap | Next planned resource | ✅ Completed |
-| Day 4 | 13 Aug 2026 | According to roadmap | Next planned resource | ⏳ Pending |
+| Day 3 | 12 Aug 2026 | Large Language Models (LLMs) | Microsoft Learn — Introduction to large language models | ✅ Completed |
+| Day 4 | 13 Aug 2026 | Embeddings | Next planned resource | ✅ Completed |
 | Day 5 | 14 Aug 2026 | According to roadmap | Next planned resource | ⏳ Pending |
 
 ---
@@ -165,4 +165,58 @@ A fluent AI response is not necessarily a correct response.
 The largest or most powerful model is also not automatically the best model. Model selection should be based on business requirements and technical constraints.
 
 ---
+
+# Day 4 — Embeddings
+
+**Status:** ✅ Completed
+**Assessment:** Passed
+
+### Key Learning
+
+* What embeddings are
+* Vector representations
+* Embedding space
+* Embedding dimensions
+* One-hot encoding and its limitations
+* Semantic similarity
+* Task-specific embeddings
+* Static embeddings
+* Word2Vec
+* Embedding layers
+* Contextual embeddings
+* AI product applications of embeddings
+
+### AI PM Mental Model
+
+```text
+Content
+→ Embedding Model
+→ Numerical Vector
+→ Embedding Space
+→ Meaningful Relationships
+→ AI Product Capability
+```
+
+### Key AI PM Insight
+
+An embedding is a numerical vector representation of data that captures useful relationships between items.
+
+Embeddings allow AI systems to work with semantic or learned similarity rather than relying only on exact keyword matches.
+
+The AI PM should understand that the usefulness of an embedding depends on whether the relationships learned by the embedding model align with the product's definition of relevance.
+
+For example, embeddings can support:
+
+* Semantic search
+* Similar-content discovery
+* Recommendation systems
+* Content clustering
+* Classification
+* Intent matching
+* Natural-language search
+
+A practical example is a legal research feature where a lawyer's natural-language query can be represented as an embedding and compared with legal document representations to identify potentially relevant precedents even when the wording differs.
+
+---
+
 
