@@ -2,7 +2,7 @@
 
 **Dates:** 10 August 2026 – 14 August 2026
 **Phase:** Phase 1 — AI + Technical Foundation
-**Weekly Focus:** AI Fundamentals + Generative AI + LLM Foundations
+**Weekly Focus:** Weekly Focus: AI Fundamentals + Generative AI + LLM Foundations + Embeddings
 
 ---
 
@@ -340,22 +340,190 @@ The AI PM's responsibility is to connect model capabilities with user needs, bus
 
 **Topic:** Embeddings
 
-**Planned Learning Resource:** To be confirmed from the current Week 1 roadmap before starting Day 4
+**Learning Resource:** Google Machine Learning Crash Course — Embeddings
 
-**Learning Focus:**
+**Status:** Completed & Validated
+
+#### Topics Completed
 
 * What embeddings are
-* Text represented as vectors
-* Semantic meaning
-* Similarity between embeddings
+* Vector representations
+* Embedding space
+* Embedding dimensions
+* One-hot encoding and its limitations
+* Semantic similarity
+* Task-specific embeddings
+* Static embeddings
+* Word2Vec at a conceptual level
+* Embedding layers
+* Contextual embeddings
+* How embeddings can be learned as part of a neural network
+* Practical AI product applications of embeddings
+
+#### Key Understanding
+
+An embedding is a numerical vector representation of data that captures useful relationships between items.
+
+The core mental model is:
+
+**Content → Embedding Model → Numerical Vector → Embedding Space → Meaningful Relationships → AI Product Capability**
+
+An embedding represents an item using a set of numerical values in a multi-dimensional space. The useful information is generally not the meaning of each individual dimension, but the relationships represented by the overall vector.
+
+Embedding values are not universally restricted to a particular numerical range. Their range depends on the embedding model and whether/how the vectors are normalized.
+
+#### Embedding Space
+
+Embedding space is the multi-dimensional space in which embedding vectors are represented.
+
+Items that the embedding model considers similar can have representations that are closer together in this space.
+
+Similar embeddings indicate similarity according to the relationships learned by the embedding model. Similarity should not automatically be interpreted as identical meaning.
+
+#### One-Hot Encoding vs Embeddings
+
+One-hot encoding primarily represents the identity of an item.
+
+For example:
+
+**Lawyer → [0, 0, 1, 0, 0]**
+
+**Attorney → [0, 1, 0, 0, 0]**
+
+The representation does not naturally express that "lawyer" and "attorney" are semantically related.
+
+Embeddings provide learned numerical representations that can capture useful relationships between items.
+
+Key distinction:
+
+**One-hot encoding identifies an item; embeddings represent useful relationships involving the item.**
+
+#### Static Embeddings
+
+Static embeddings generally provide a fixed representation for an item.
+
+Word2Vec is a classic example. It learns a single global embedding for a word based on the contexts in which the word appears.
+
+A limitation is that a word with multiple meanings receives the same static representation.
+
+#### Contextual Embeddings
+
+Contextual embeddings incorporate surrounding context when representing a word or token.
+
+For example:
+
+**"River bank"**
+
+and
+
+**"Bank deposit"**
+
+can receive representations influenced by their different contexts.
+
+Therefore:
+
+**Static embeddings → generally fixed representation**
+
+**Contextual embeddings → representation influenced by surrounding context**
+
+#### Embedding Layers
+
+Embeddings can be learned separately or as part of a larger neural network.
+
+Conceptually:
+
+**Input → Embedding Layer → Vector Representation → Additional Layers → Output**
+
+The embedding layer learns representations that help the model perform its target task.
+
+#### AI PM Perspective
+
+Embeddings are important to an AI Project Manager because they allow AI systems to work with learned relationships and semantic similarity rather than relying only on exact keyword matches.
+
+Potential product capabilities include:
+
 * Semantic search
-* Basic embedding use cases
-* Business applications of embeddings
-* AI PM requirements and trade-offs
+* Similar-content discovery
+* Recommendation systems
+* Content clustering
+* Classification
+* Intent matching
+* Similarity-based discovery
+* Natural-language search
 
-**Learning Status:** Not Started
+An AI PM should consider:
 
-> Do not document or finalize `04-Embeddings.md` until the topic has been learned and understanding has been validated.
+* What does "similarity" mean for the product?
+* Is the embedding model appropriate for the use case?
+* What data is being embedded?
+* What quality level is required?
+* How will relevance be evaluated?
+* What happens when semantically similar content is actually irrelevant?
+* What business outcome should improve?
+
+#### Practical Application — Legal Research
+
+**Feature:** Semantic Precedent Finder
+
+A legal research product could use embeddings to help lawyers discover relevant precedents even when the wording of a query differs from the wording used in a judgment.
+
+Conceptually:
+
+**Lawyer Query → Query Embedding → Compare with Document Embeddings → Semantically Relevant Precedents**
+
+Potential product value:
+
+* Reduce time-to-first-relevant-case
+* Improve discovery of relevant precedents
+* Reduce dependence on complex Boolean queries
+* Support natural-language legal research
+* Improve discovery when terminology differs
+
+The key AI PM consideration is that semantic similarity must be validated against the product's actual definition of legal relevance.
+
+#### Assessment
+
+**Google ML Crash Course — Embeddings Quiz**
+
+**Result:** 5/5
+
+**Status:** Passed
+
+#### Day 4 Validation
+
+Understanding was validated through:
+
+* Review of learning notes
+* Technical corrections
+* Five AI PM-level validation questions
+* Practical legal research use case
+
+**Validation Result:** PASSED
+
+#### Day 4 Reflection
+
+The key learning from Day 4 is that embeddings transform data into numerical representations that allow AI systems to work with meaningful relationships and similarity.
+
+From an AI PM perspective, the most important consideration is not simply that embeddings are vectors, but whether the embedding model's representation of similarity aligns with the product's actual definition of relevance and business value.
+
+#### Day 4 Definition of Done
+
+* [x] Understand what an embedding is
+* [x] Understand vector representation
+* [x] Understand embedding space
+* [x] Understand embedding dimensions
+* [x] Understand limitations of one-hot encoding
+* [x] Understand semantic similarity
+* [x] Understand task-specific embeddings
+* [x] Understand static embeddings
+* [x] Understand contextual embeddings
+* [x] Understand embedding layers conceptually
+* [x] Apply embeddings to a real AI product use case
+* [x] Complete Google ML Crash Course Embeddings module
+* [x] Pass knowledge assessment with 5/5
+* [x] Complete understanding validation
+
+**Day 4 — COMPLETED & VALIDATED**
 
 ---
 
